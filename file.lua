@@ -28,4 +28,4 @@ Notify({
     Duration = 3;
 });
 wait("5")
-loadstring(game:HttpGet("https://raw.githubusercontent.com/comet3456998765/SKHub-Orion/main/YesIDsSystem"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/comet3456998765/SKHub-Orion/main/YesIDsSystem.lua"))()
