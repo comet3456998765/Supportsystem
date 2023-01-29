@@ -1,13 +1,5 @@
 local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/juywvm/ui-libs/main/Akali_Notify_Library/AkaliNotifyLibrary"))();
 
-local chromaColor
-local rainbowTime = 5
-spawn(function()
-	while wait() do
-		chromaColor = Color3.fromHSV(tick() % rainbowTime / rainbowTime, 1, 1)
-	end
-end)
-
 local Notify = AkaliNotif.Notify;
 
 Notify({
